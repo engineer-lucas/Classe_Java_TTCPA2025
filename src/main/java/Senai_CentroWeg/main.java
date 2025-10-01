@@ -2,6 +2,7 @@ package Senai_CentroWeg;
 
 public class main {
     public static void main(String[] args) {
+        System.out.println("------------------");
         System.out.println("OBJETO 1");
         Caneta c1 = new Caneta();
         c1.modelo = "Compactor 07";
@@ -12,6 +13,7 @@ public class main {
         c1.status();
         c1.rabiscar();
 
+        System.out.println("------------------");
         System.out.println("OBJETO 2");
         Caneta c2 = new Caneta();
         c2.modelo = "Bic Cristal";
@@ -21,6 +23,16 @@ public class main {
         c2.destampar();
         c2.status();
         c2.rabiscar();
+
+        System.out.println("------------------");
+        System.out.println("OBJETO 3");
+        Caneta c3 = new Caneta();
+        c3.modelo = "Faber Castel";
+        c3.cor = "Vermelha";
+        c3.ponta = 0.7f;
+        c3.destampar();
+        c3.status();
+        c3.rabiscar();
 
     }
 }
